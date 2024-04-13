@@ -1,3 +1,4 @@
+#Brenn Nurczyk
 def encode(pas):
     new = []
     for char in pas:
