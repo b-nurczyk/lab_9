@@ -1,3 +1,12 @@
+def decode(pas):
+    new = []
+    for char in pas:
+        current_char = int(char) - 3
+        if current_char < 0:
+            new.append(str(current_char + 10))
+        else:
+            new.append(str(current_char))
+    return ''.join(new):
 def encode(pas):
     new = []
     for char in pas:
